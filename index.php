@@ -7,32 +7,32 @@ require_once('Ejercicio5/ejercicio5.php');
 require_once('Ejercicio6/Saludar.php');
 
 //Ejercicio 1
-echo semaforo_a("rojo") . "\n";
-echo semaforo_b("amarillo") . "\n";
-echo semaforo_c("verde") . "\n";
+echo semaforo_a("rojo") . "<br>";
+echo semaforo_b("amarillo") . "<br>";
+echo semaforo_c("verde") . "<br>";
 
 //Ejercicio 2
-echo binomioCuadradoPerfecto_a(2, 2) . "\n";
-echo binomioCuadradoPerfecto_b(2, 2) . "\n";
+echo binomioCuadradoPerfecto_a(2, 2) . "<br>";
+echo binomioCuadradoPerfecto_b(2, 2) . "<br>";
 
 //Ejercicio 3
-echo concatenar("Hola me llamo", "Ignacio") . "\n";
+echo concatenar("Hola me llamo", "Ignacio") . "<br>";
 
 //Ejercicio 4
 $numero = 41;
-echo 'numero antes de la llamada a la función: ' . $numero . "\n";
+echo 'numero antes de la llamada a la función: ' . $numero . "<br>";
 incrementar($numero);
-echo 'numero después de la llamada a la función: ' . $numero . "\n";
+echo 'numero después de la llamada a la función: ' . $numero . "<br>";
 
 //Ejercicio 5
 $array = array(1, 2, 3, 4, 5);
 
-echo sumatoria_a($array) . "\n";
-echo sumatoria_b($array) . "\n";
-echo sumatoria_c($array) . "\n";
+echo sumatoria_a($array) . "<br>";
+echo sumatoria_b($array) . "<br>";
+echo sumatoria_c($array) . "<br>";
 
 //Ejercicio 6
 
 $saludo = new Saludar("Ignacio", "Cabral");
-echo $saludo->saludoFormal(13) . "\n";
-echo $saludo->saludoInformal(13) . "\n";
+echo $saludo->saludoFormal(13) . "<br>";
+echo $saludo->saludoInformal(13) . "<br>";
