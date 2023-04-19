@@ -4,7 +4,7 @@ require_once('Ejercicio2/ejercicio2.php');
 require_once('Ejercicio3/ejercicio3.php');
 require_once('Ejercicio4/ejercicio4.php');
 require_once('Ejercicio5/ejercicio5.php');
-require_once('Ejercicio6/ejercicio6.php');
+require_once('Ejercicio6/Saludar.php');
 
 //Ejercicio 1
 echo semaforo_a("rojo") . "\n";
