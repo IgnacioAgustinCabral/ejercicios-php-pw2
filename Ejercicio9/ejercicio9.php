@@ -4,21 +4,16 @@
     <h1>Insta-gramo</h1>
 
     <div class="container">
-        <div class="hijo">
-            <img src="../imagenes/edificio.jpg" alt="Edificio alto de cristal">
-            <h2>Edificio alto</h2>
-        </div>
-
-        <div class="hijo">
-            <img src="../imagenes/subte.jpg" alt="Metro de Londres">
-            <h2>Metro de Londres</h2>
-
-        </div>
-
-        <div class="hijo">
-            <img src="../imagenes/mesa.jpg" alt="mesa">
-            <h2>Mesa</h2>
-        </div>
+        <?php
+        $dir = '../imagenes';
+        $imagenes = array_diff(scandir($dir), array('..', '.'));
+        foreach ($imagenes as $imagen){
+            echo '<div class="hijo">'
+                    .'<img src=../imagenes/'.$imagen.'>'.
+                    '<h2>'.ucfirst(trim($imagen,'.jpg')).'</h2>'.
+                   '</div>';
+        }
+        ?>
     </div>
 
     <div class="form-container">
