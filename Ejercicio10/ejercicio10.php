@@ -18,7 +18,7 @@
 
     foreach ($imagenes as $imagen){
 
-        echo '<a href=../imagenes/'.$imagen.'>'.ucfirst(trim($imagen,'.jpg')).'</a>'.'<br>';
+        echo '<a target="_blank" href=imagen.php?imagen='.$imagen.'>'.ucfirst(trim($imagen,'.jpg')).'</a>'.'<br>';
     }
     ?>
 </div>
