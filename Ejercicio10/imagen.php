@@ -13,7 +13,7 @@
         <?php
         $imagen = $_GET['imagen'];
         echo '<h2>'.ucfirst(trim($imagen,'.jpg')).'</h2>'.
-            '<img src=../imagenes/'.$imagen.'>';
+            '<img src=../public/imagenes/'.$imagen.'>';
         ?>
     </div>
 

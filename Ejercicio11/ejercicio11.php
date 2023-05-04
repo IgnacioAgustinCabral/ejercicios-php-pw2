@@ -30,7 +30,7 @@ $contador = 0;
 for ($i=1;$i<=$cantidadDados;$i++){
     $random = random_int(1,6);
     $contador += $random;
-    echo '<img src=../imagenes/dados/dado-'.$random.'.png'.'>';
+    echo '<img src=../public/dados/dado-'.$random.'.png'.'>';
 }
 if($cantidadDados){
     echo '<h2>'.'Resultado obtenido: '.$contador.'</h2>';
